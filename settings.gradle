@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        maven { url "https://nexus.halykbank.nb/repository/plugins-gradle/" }
+        maven { url "https://nexus.halykbank.nb/repository/maven-central/" }
+    }
+}
+
+rootProject.name = 'nifi-avro-to-orc-converter'
+
